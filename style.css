@@ -1,4 +1,4 @@
-/* --- Root Variables & Reset --- */
+
 :root {
     --primary-blue: #203bd6;
     --dark-bg: #1a1a1a;
@@ -26,7 +26,7 @@ body {
 
 }
 
-/* --- Navigation & Header --- */
+
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -70,7 +70,6 @@ body {
     color: var(--primary-blue);
 }
 
-/* --- Hero Section --- */
 .hero-content {
     padding: 180px 8% 100px;
     text-align: center;
@@ -101,7 +100,6 @@ body {
     gap: 1.5rem;
 }
 
-/* --- Global Sections & Containers --- */
 
 .main-bg-image {
     background-color: var(--light-bg); /* Mengambil warna abu-abu sangat muda dari variabel di atas */
@@ -112,7 +110,7 @@ body {
     padding: 100rem 8%; /* Memberikan ruang agar konten tidak sesak */
 }
 
-/* Gaya untuk garis biru dekorasi */
+
 .blue-line {
     width: 60px;
     height: 4px;
@@ -130,7 +128,7 @@ body {
 
 .section-header { text-align: center; margin-bottom: 4rem; }
 
-/* --- Buttons --- */
+
 .btn-primary, .btn-secondary {
     padding: 12px 30px;
     border-radius: 8px;
@@ -154,7 +152,7 @@ body {
     color: var(--primary-blue);
 }
 
-/* --- Cards Grid --- */
+
 .aside-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -192,7 +190,7 @@ body{
     background: #e9e9e9;
 }
 
-/* ABOUT ME */
+
 .about{
     padding: 80px 10%;
     background: #e9e9e9;
@@ -249,7 +247,7 @@ body{
     transform: scale(1.05);
 }
 
-/* FOOTER */
+
 .footer{
     background: #000;
     color: white;
@@ -307,7 +305,7 @@ body{
     color: #ddd;
 }   
 
-/* HAMBURGER */
+
 #menu-toggle{
     display: none;
 }
@@ -327,7 +325,7 @@ body{
     transition: 0.3s;
 }
 
-/* MOBILE */
+
 @media (max-width: 768px){
 
     .hamburger{
